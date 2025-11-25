@@ -30,5 +30,31 @@ nav ul li{
     box-sizing: border-box;
 }
 .brand{
+    display: flex;
+    align-items: center;
     padding: 0 10px;
+}
+.container{
+    min-height: 87vh;
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    color: white;
+    height: 72px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.icons{
+    margin-bottom: 10px;
+}
+#myprogressbar{
+    width: 25vh;
+}
+svg{
+    fill: white;
+    width: 30px;
+    cursor: pointer;
 }
