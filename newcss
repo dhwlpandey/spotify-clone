@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+body{
+    /* background-color: black;
+    height: 100vh;
+    overflow: hidden; */
+      margin: 0;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  overflow: hidden;              
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+nav{
+  /* position: fixed;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 3; */
+position: fixed;
+  top: 0;          /* ✅ anchor to top */
+  left: 0;
+  right: 0;
+  z-index: 100;    /* ✅ higher than anything else */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 5vh;
+    width: 100vw;
+    padding: 8px;
+    background-color: black;
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand img{
+    height: 32px;
+    width: 32px;
+    box-sizing: border-box;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.container{  
+    /* height: 120vh; */
+    /* background-color: midnightblue; */
+    /* position: relative; */
+    /* top:4vh; */
+    /* left: 0px; */
+    /* padding-top: 5vh; */
+    /* padding-left: 5vh; */
+    /* border-top-left-radius: 5vh; */
+    /* border-radius: 3vh; */
+    /* color: white; */
+    /* font-family: "Poppins", sans-serif; */
+ 
+    /* display: flex; */
+    /* margin: auto 10px; */
+    /* padding: 5.5vh 0; */
+    /* margin-top: auto 10vh; */
+    /* background-color: midnightblue;
+    color: white;
+    font-family: "Poppins", sans-serif; */
+
+    /* Make container sit between nav and bottom */
+    /* margin: 5vh 10px 9vh;      */
+    /* space for nav (top) and bottom (bottom) */
+    /* height: calc(100vh - 5vh - 9vh); */
+
+    /* border-radius: 3vh; */
+    /* overflow-y: auto; */
+             /* only container scrolls */
+    /* overflow-x: hidden; */
+
+    /* display: block; */
+    background-color: midnightblue;
+  color: white;
+  font-family: "Poppins", sans-serif;
+
+  margin: 5vh 10px 9vh;          /* space for nav (5vh) and bottom (9vh) */
+  height: calc(100vh - 5vh - 9vh);
+  border-radius: 3vh;
+  overflow-y: auto;              /* only middle scrolls */
+  overflow-x: hidden;
+}
+/* .outerElement {
+  border-radius: 63px;
+  padding: 32px;
+}
+
+.innerElement {
+  border-radius: 31px;
+}
+ */
+.details{
+    /* padding: 85px 5px;
+    position: fixed;
+    font-size: 8px; */
+    padding: 20px;
+    font-size: 12px;
+    position: static;
+}
+h1{
+    text-indent: 20px;
+}
+.artwork{
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+}
+.bottom{
+    /* display: flex;
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 9vh;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse; */
+    /* position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 9vh;
+    background: black;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse; */
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 9vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  z-index: 100;
+}
+.icons{
+    margin-bottom: 10px;
+}
+#myprogressbar{
+    width: 70vh;
+}
+svg{
+    fill: white;
+    width: 30px;
+    cursor: pointer;
+}
