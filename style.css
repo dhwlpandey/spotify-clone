@@ -59,6 +59,7 @@ nav ul li{
     padding: 85px 5px;
     position: fixed;
     font-size: 8px;
+    /* background-color: midnightblue; */
 }
 h1{
     text-indent: 20px;
@@ -108,12 +109,46 @@ svg{
 .songitem{
     height: 5vh;
     display: flex;
-    justify-items: left;
-    align-items: center;
-    background-color: white;
-    width: 20vw;
-    color: black;
+    /* justify-items: center;
+    align-items: center; */
+    background-color: black;
+    border: 5px solid darkred;
+    /* width: 20vw; */
+    color: white;
+    margin: 10px 10px;
+    border-radius: 34px;
 }
 .songitem img{
-    width: 5vh;
+    /* width: 5vh; */
+    /* background-color: yellow; */
+    border-radius: 34px;
+    margin: 0 20px;
+}
+.songitem svg{
+    width: 20px;
+    border: 2px solid wheat;
+}
+.songname{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0 0 0 95px;
+    font-size: 15px;
+}
+/* .sn{
+    margin: 0 0 0 5px;
+} */
+/* .songlistplay{
+    
+} */
+.timestamp{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* margin: 13px 130px; */
+    margin-top: 13px;
+    /* margin-bottom: 7px; */
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 16px;
 }
