@@ -65,6 +65,58 @@ h1{
     text-indent: 20px;
     /* position: fixed; */
 }
+
+.songitemcontainer{
+    margin-top: 20px;
+}
+.songitem{
+    height: 5vh;
+    display: flex;
+    /* justify-items: center;
+    align-items: center; */
+    background-color: black;
+    border: 5px solid darkred;
+    /* width: 20vw; */
+    color: white;
+    margin: 10px 10px;
+    border-radius: 34px;
+    box-shadow: 0 0 15px purple;
+}
+.songitem img{
+    /* width: 5vh; */
+    /* background-color: yellow; */
+    border-radius: 34px;
+    margin: 0 20px;
+}
+.songitem svg{
+    width: 20px;
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+.songname{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0 0 0 95px;
+    font-size: 15px;
+}
+/* .sn{
+    margin: 0 0 0 5px;
+} */
+/* .songlistplay{
+    
+} */
+.timestamp{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* margin: 13px 130px; */
+    margin-top: 13px;
+    /* margin-bottom: 7px; */
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 16px;
+}
 .artwork{
     display: flex;
     justify-content: center;
@@ -100,55 +152,19 @@ h1{
 }
 #myprogressbar{
     width: 70vh;
+    cursor: pointer;
 }
 svg{
     fill: white;
     width: 30px;
     cursor: pointer;
 }   
-.songitem{
-    height: 5vh;
-    display: flex;
-    /* justify-items: center;
-    align-items: center; */
-    background-color: black;
-    border: 5px solid darkred;
-    /* width: 20vw; */
-    color: white;
-    margin: 10px 10px;
-    border-radius: 34px;
+.songinfo{
+    position: absolute;
+    left: 40px;
+    font-family: "Poppins", sans-serif;
 }
-.songitem img{
-    /* width: 5vh; */
-    /* background-color: yellow; */
-    border-radius: 34px;
-    margin: 0 20px;
-}
-.songitem svg{
-    width: 20px;
-    border: 2px solid wheat;
-}
-.songname{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin: 0 0 0 95px;
-    font-size: 15px;
-}
-/* .sn{
-    margin: 0 0 0 5px;
-} */
-/* .songlistplay{
-    
-} */
-.timestamp{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    /* margin: 13px 130px; */
-    margin-top: 13px;
-    /* margin-bottom: 7px; */
-    margin-left: 100px;
-    margin-right: 20px;
-    font-size: 16px;
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
 }
